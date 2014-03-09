@@ -21,15 +21,15 @@ public class NovenaActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_novena);
         
-        btnPrayers 		=(Button) findViewById(R.id.btnPrayers);
-        btnHymns 		=(Button) findViewById(R.id.btnHymns);
+        btnPrayers =(Button) findViewById(R.id.btnPrayers);
+        btnHymns =(Button) findViewById(R.id.btnHymns);
         btnConsecration =(Button) findViewById(R.id.btnConsagration);
         
         btnPrayers.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(NovenaActivity.this, Prayers.class);
+				Intent intent = new Intent(NovenaActivity.this, PrayersActivity.class);
 				startActivity(intent);
 				Toast.makeText(getApplicationContext(), btnPrayers.getText(), Toast.LENGTH_LONG).show();
 			}
@@ -40,7 +40,7 @@ public class NovenaActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(NovenaActivity.this, Hymns.class);
+				Intent intent = new Intent(NovenaActivity.this, HymnsActivity.class);
 				startActivity(intent);
 				
 				Toast.makeText(getApplicationContext(), btnHymns.getText(), Toast.LENGTH_LONG).show();
@@ -53,9 +53,9 @@ public class NovenaActivity extends Activity {
 	
         	@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(NovenaActivity.this, Consecration.class);
+				Intent intent = new Intent(NovenaActivity.this, ConsecrationActivity.class);
 				startActivity(intent);
-				Toast.makeText(getApplicationContext(), "Cliquei aqui" + btnConsecration.getText(), Toast.LENGTH_LONG).show();
+				Toast.makeText(getApplicationContext(), btnConsecration.getText(), Toast.LENGTH_LONG).show();
 			}
 		});
         

@@ -1,25 +1,111 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-    
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="false"
-        android:duplicateParentState="false"
-        android:longClickable="false"
-        android:text="@string/txtTitleActOfConsecration"
-        android:textAlignment="center"
-        android:textStyle="bold" />
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:fillViewport="true"
+    android:padding="0px" >
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="false"
-        android:duplicateParentState="false"
-        android:longClickable="false"
-        android:text="@string/txtActOfConsecration" />
-    
-</LinearLayout>
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/txtTitleFirstPrayer"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/txtFirstPrayer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/aveMaria" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/txtTitleSecondPrayer"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/txtSecondPrayer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/aveMaria" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/txtTitleThrirdPrayer"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/txtThirdPrayer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/aveMaria" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/txtTitleFourthPrayer"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:longClickable="false"
+            android:text="@string/txtFourthPrayer" />
+    </LinearLayout>
+
+</ScrollView>

@@ -19,6 +19,8 @@
             android:longClickable="false"
             android:text="@string/txtTitleFirstPrayer"
             android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:textStyle="bold" />
 
         <TextView
@@ -27,7 +29,8 @@
             android:clickable="false"
             android:duplicateParentState="false"
             android:longClickable="false"
-            android:text="@string/txtFirstPrayer" />
+            android:text="@string/txtFirstPrayer"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
             android:layout_width="match_parent"
@@ -35,7 +38,9 @@
             android:clickable="false"
             android:duplicateParentState="false"
             android:longClickable="false"
-            android:text="@string/aveMaria" />
+            android:text="@string/aveMaria"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|italic" />
 
         <TextView
             android:layout_width="match_parent"
@@ -45,6 +50,8 @@
             android:longClickable="false"
             android:text="@string/txtTitleSecondPrayer"
             android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:textStyle="bold" />
 
         <TextView
@@ -53,7 +60,9 @@
             android:clickable="false"
             android:duplicateParentState="false"
             android:longClickable="false"
-            android:text="@string/txtSecondPrayer" />
+            android:text="@string/txtSecondPrayer"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -61,7 +70,9 @@
             android:clickable="false"
             android:duplicateParentState="false"
             android:longClickable="false"
-            android:text="@string/aveMaria" />
+            android:text="@string/aveMaria"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|italic" />
 
         <TextView
             android:layout_width="match_parent"
@@ -69,8 +80,10 @@
             android:clickable="false"
             android:duplicateParentState="false"
             android:longClickable="false"
-            android:text="@string/txtTitleThrirdPrayer"
+            android:text="@string/txtTitleThirdPrayer"
             android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:textStyle="bold" />
 
         <TextView
@@ -79,7 +92,8 @@
             android:clickable="false"
             android:duplicateParentState="false"
             android:longClickable="false"
-            android:text="@string/txtThirdPrayer" />
+            android:text="@string/txtThirdPrayer"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <TextView
             android:layout_width="match_parent"
@@ -87,7 +101,9 @@
             android:clickable="false"
             android:duplicateParentState="false"
             android:longClickable="false"
-            android:text="@string/aveMaria" />
+            android:text="@string/aveMaria"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|italic" />
 
         <TextView
             android:layout_width="match_parent"
@@ -97,6 +113,8 @@
             android:longClickable="false"
             android:text="@string/txtTitleFourthPrayer"
             android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:textStyle="bold" />
 
         <TextView
@@ -105,7 +123,8 @@
             android:clickable="false"
             android:duplicateParentState="false"
             android:longClickable="false"
-            android:text="@string/txtFourthPrayer" />
+            android:text="@string/txtFourthPrayer"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
     </LinearLayout>
 
 </ScrollView>
